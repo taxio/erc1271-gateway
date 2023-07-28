@@ -8,7 +8,7 @@ import { ConnectWallet, useSDK } from "@thirdweb-dev/react";
 import { ethers } from "ethers";
 
 const core = new Core({
-  projectId: process.env.WC_PROJECT_ID,
+  projectId: process.env.NEXT_PUBLIC_WC_PROJECT_ID,
 });
 
 
